@@ -7,7 +7,7 @@ Predicts house prices using features like location, area, bedrooms, and conditio
 Build a regression model to accurately estimate house prices based on historical data.
 
 ## 📊 Dataset
-- KC House Dataset (~21K records, 20+ features)
+- KC House Dataset (~21K records, 21 features)
 
 ## ⚙️ Tech Stack
 - Python, Pandas, NumPy  
@@ -22,13 +22,14 @@ Build a regression model to accurately estimate house prices based on historical
 - Evaluation (R², MAE, RMSE)  
 
 ## 📈 Performance
-- R² Score: **0.85**  
-- MAE: ~12,000  
-- RMSE: ~18,000  
+- Random Forest
+- R² Score: **0.89**  
+- MAE: ~69583.99 
+- RMSE: ~124589.43 
 
 ## 📊 Insights
-- Location strongly impacts price  
-- Larger area → higher price  
+- grade ,zipcode strongly impacts price  
+- Total house area → higher price  
 - Renovated & waterfront houses cost more  
 
 ## 📁 Project Structure
