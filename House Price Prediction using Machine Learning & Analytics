@@ -1,0 +1,34 @@
+# 🏠 House Price Prediction using Machine Learning
+
+## 📌 Overview
+Predicts house prices using features like location, area, bedrooms, and condition to support real estate decision-making.
+
+## 🎯 Problem Statement
+Build a regression model to accurately estimate house prices based on historical data.
+
+## 📊 Dataset
+- KC House Dataset (~21K records, 20+ features)
+
+## ⚙️ Tech Stack
+- Python, Pandas, NumPy  
+- Scikit-learn  
+- Matplotlib, Seaborn  
+- Power BI  
+
+## 🔍 Workflow
+- Data Cleaning & Outlier Removal  
+- Feature Engineering (Total Area, Renovation Flag, Zipcode Encoding)  
+- Model Building (Linear Regression, Random Forest)  
+- Evaluation (R², MAE, RMSE)  
+
+## 📈 Performance
+- R² Score: **0.85**  
+- MAE: ~12,000  
+- RMSE: ~18,000  
+
+## 📊 Insights
+- Location strongly impacts price  
+- Larger area → higher price  
+- Renovated & waterfront houses cost more  
+
+## 📁 Project Structure
